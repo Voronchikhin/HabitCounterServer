@@ -5,12 +5,13 @@ import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
 
 @RestController
-@RequestMapping()
-class LoginController {
-    init {
-        println("hello from controller")
-    }
-
-    @GetMapping("/login")
-    fun login() = "hello".toByteArray()
+@RequestMapping
+class HabitsController {
+//    init {
+//        println("hallo from habit controller ")
+//    }
+//
+//
+//    @GetMapping("/welcome")
+//    fun getHabits() =
 }
