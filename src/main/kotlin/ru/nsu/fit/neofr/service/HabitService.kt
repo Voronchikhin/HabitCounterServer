@@ -1,10 +1,10 @@
-package ru.nsu.fit.neofr.Service
+package ru.nsu.fit.neofr.service
 
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.data.repository.findByIdOrNull
 import org.springframework.stereotype.Service
-import ru.nsu.fit.neofr.Exceptions.NotFoundInTableException
-import ru.nsu.fit.neofr.Model.HabitEntity
+import ru.nsu.fit.neofr.exceptions.NotFoundInTableException
+import ru.nsu.fit.neofr.entity.HabitEntity
 import ru.nsu.fit.neofr.repositories.HabitRepository
 
 

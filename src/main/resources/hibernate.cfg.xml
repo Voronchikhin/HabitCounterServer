@@ -8,6 +8,8 @@
         <property name="connection.username">SA</property>
         <property name="connection.password">K4VFstWV</property>
         <property name="connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+        <property name="hbm2ddl.auto">create</property>
+
 
         <mapping class="ru.nsu.fit.neofr.entity.AppUserEntity"/>
         <mapping class="ru.nsu.fit.neofr.entity.HabitEntity"/>
@@ -23,4 +25,5 @@
         <!-- DB schema will be updated if needed -->
         <!-- <property name="hbm2ddl.auto">update</property> -->
     </session-factory>
+
 </hibernate-configuration>
