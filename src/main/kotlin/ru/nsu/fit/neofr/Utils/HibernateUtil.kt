@@ -3,7 +3,7 @@ package ru.nsu.fit.neofr.Utils
 import org.hibernate.cfg.Configuration;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder
-import ru.nsu.fit.neofr.entity.*
+import ru.nsu.fit.neofr.model.*
 
 
 class HibernateUtil private constructor() {

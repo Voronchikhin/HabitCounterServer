@@ -1,8 +1,12 @@
-package ru.nsu.fit.neofr.entity
+package ru.nsu.fit.neofr.model
 
+import javax.persistence.EmbeddedId
 import javax.persistence.Entity
 import javax.persistence.Table
 
 @Entity
 @Table(name = "User_Habit", schema = "dbo", catalog = "HabitCounter")
-class UserHabitEntity
+class UserHabitEntity (
+    @EmbeddedId
+    var id : UserHabitId
+)

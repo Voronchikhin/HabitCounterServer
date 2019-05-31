@@ -1,4 +1,4 @@
-package ru.nsu.fit.neofr.entity
+package ru.nsu.fit.neofr.model
 
 import javax.persistence.*
 import java.sql.Date

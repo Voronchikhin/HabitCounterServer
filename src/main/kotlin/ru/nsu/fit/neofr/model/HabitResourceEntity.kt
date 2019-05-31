@@ -1,13 +1,13 @@
-package ru.nsu.fit.neofr.entity
+package ru.nsu.fit.neofr.model
 
-import javax.persistence.Basic
-import javax.persistence.Column
-import javax.persistence.Entity
-import javax.persistence.Table
+import javax.persistence.*
 
 @Entity
 @Table(name = "Habit_Resource", schema = "dbo", catalog = "HabitCounter")
-class HabitResourceEntity {
+class HabitResourceEntity (
+    @EmbeddedId
+    var id : HabitResourceId
+) {
     @get:Basic
     @get:Column(name = "resource_per_time")
     var resourcePerTime: Double? = null
