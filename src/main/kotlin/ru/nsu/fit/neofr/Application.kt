@@ -12,8 +12,8 @@ import org.springframework.boot.runApplication
 //@Configuration
 //@EnableJpaRepositories("ru.nsu.fit.neofr.app")
 @SpringBootApplication
-//@ComponentScan(basePackages = ["ru.nsu.fit.neofr"])
-@ComponentScan(basePackageClasses = [HomeController::class])
+@ComponentScan(basePackages = ["ru.nsu.fit.neofr"])
+//@ComponentScan(basePackageClasses = [HomeController::class])
 class Application : SpringBootServletInitializer()  {
 
     companion object {

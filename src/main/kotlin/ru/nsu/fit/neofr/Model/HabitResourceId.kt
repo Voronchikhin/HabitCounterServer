@@ -1,4 +1,4 @@
-package ru.nsu.fit.neofr.model
+package ru.nsu.fit.neofr.Model
 
 import java.io.Serializable
 import javax.persistence.Column

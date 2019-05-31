@@ -9,14 +9,14 @@
         <property name="connection.password">K4VFstWV</property>
         <property name="connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
 
-        <mapping class="ru.nsu.fit.neofr.model.AppUserEntity"/>
-        <mapping class="ru.nsu.fit.neofr.model.HabitEntity"/>
-        <mapping class="ru.nsu.fit.neofr.model.HabitResourceEntity"/>
-        <mapping class="ru.nsu.fit.neofr.model.MeasureEntity"/>
-        <mapping class="ru.nsu.fit.neofr.model.MonthServerLogEntity"/>
-        <mapping class="ru.nsu.fit.neofr.model.ResourceEntity"/>
-        <mapping class="ru.nsu.fit.neofr.model.ServerLogEntity"/>
-        <mapping class="ru.nsu.fit.neofr.model.UserHabitEntity"/>
+        <mapping class="ru.nsu.fit.neofr.Model.AppUserEntity"/>
+        <mapping class="ru.nsu.fit.neofr.Model.HabitEntity"/>
+        <mapping class="ru.nsu.fit.neofr.Model.HabitResourceEntity"/>
+        <mapping class="ru.nsu.fit.neofr.Model.MeasureEntity"/>
+        <mapping class="ru.nsu.fit.neofr.Model.MonthServerLogEntity"/>
+        <mapping class="ru.nsu.fit.neofr.Model.ResourceEntity"/>
+        <mapping class="ru.nsu.fit.neofr.Model.ServerLogEntity"/>
+        <mapping class="ru.nsu.fit.neofr.Model.UserHabitEntity"/>
         <!-- <property name="connection.username"/> -->
         <!-- <property name="connection.password"/> -->
 

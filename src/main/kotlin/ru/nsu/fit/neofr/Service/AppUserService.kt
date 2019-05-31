@@ -1,8 +1,11 @@
 package ru.nsu.fit.neofr.Service
 
 import org.springframework.beans.factory.annotation.Autowired
+import org.springframework.stereotype.Service
 import ru.nsu.fit.neofr.repositories.AppUserRepository
 
+
+@Service
 class AppUserService {
 
     @Autowired
