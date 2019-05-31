@@ -3,8 +3,12 @@ package ru.nsu.fit.neofr.entity
 import javax.persistence.*
 
 @Entity
-@Table(name = "Habit_Resource", schema = "dbo", catalog = "HabitCounter")
+@Table(name = "Habit_Resource", schema = "habit", catalog = "HabitCounter")
 class HabitResourceEntity(
+        @Id
+        @Column(name = "habit_resource_id")
+        var id : Long,
+
         @Basic
         @Column(name = "resource_per_time", nullable = false)
         var resourcePerTime: Double,
@@ -14,7 +18,7 @@ class HabitResourceEntity(
         var habitEntity: HabitEntity,
 
         @ManyToOne(cascade = [CascadeType.ALL])
-        @JoinColumn(name = "resource_id", referencedColumnName = "resource_id")
+        @JoinColumn(name = "resource_id")
         var resourceEntity: ResourceEntity
 
 )

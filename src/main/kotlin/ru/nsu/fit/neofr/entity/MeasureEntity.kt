@@ -4,7 +4,7 @@ import javax.persistence.*
 
 
 @Entity
-@Table(name = "Measure", schema = "dbo", catalog = "HabitCounter")
+@Table(name = "Measure", schema = "habit", catalog = "HabitCounter")
 class MeasureEntity(
         @Id
         @Column(name = "measure_id")

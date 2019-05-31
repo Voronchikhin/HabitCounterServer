@@ -5,7 +5,7 @@ import javax.persistence.Entity
 import javax.persistence.Table
 
 @Entity
-@Table(name = "User_Habit", schema = "dbo", catalog = "HabitCounter")
+@Table(name = "User_Habit", schema = "habit", catalog = "HabitCounter")
 class UserHabitEntity (
     @EmbeddedId
     var id : UserHabitId

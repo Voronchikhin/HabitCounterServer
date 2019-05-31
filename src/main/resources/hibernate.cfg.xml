@@ -4,9 +4,9 @@
         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-        <property name="connection.url">jdbc:sqlserver://localhost</property>
-        <property name="connection.username">SA</property>
-        <property name="connection.password">K4VFstWV</property>
+        <property name="connection.url">jdbc:sqlserver://localhost:1433</property>
+        <property name="connection.username">habit</property>
+        <property name="connection.password">Qwerty123,.</property>
         <property name="connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
         <property name="hbm2ddl.auto">create</property>
 

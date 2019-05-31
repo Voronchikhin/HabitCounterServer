@@ -4,7 +4,7 @@ import javax.persistence.*
 import java.sql.Date
 
 @Entity
-@Table(name = "MonthServerLog", schema = "dbo", catalog = "HabitCounter")
+@Table(name = "MonthServerLog", schema = "habit", catalog = "HabitCounter")
 class MonthServerLogEntity(
         @Id
         @Column(name = "log_record_id")

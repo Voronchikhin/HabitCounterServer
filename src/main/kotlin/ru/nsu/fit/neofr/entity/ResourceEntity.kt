@@ -3,7 +3,7 @@ package ru.nsu.fit.neofr.entity
 import javax.persistence.*
 
 @Entity
-@Table(name = "Resource", schema = "dbo", catalog = "HabitCounter")
+@Table(name = "Resource", schema = "habit", catalog = "HabitCounter")
 class ResourceEntity(
         @Id
         @Column(name = "resource_id")
