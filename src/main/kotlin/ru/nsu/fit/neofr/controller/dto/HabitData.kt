@@ -1,6 +1,6 @@
-package ru.nsu.fit.neofr.ClientModel
+package ru.nsu.fit.neofr.controller.dto
 
-import ru.nsu.fit.neofr.Model.HabitEntity
+import ru.nsu.fit.neofr.entity.HabitEntity
 
 class HabitData (
         var id : Int,

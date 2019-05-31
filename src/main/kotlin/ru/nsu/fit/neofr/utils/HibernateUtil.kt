@@ -1,20 +1,15 @@
-package ru.nsu.fit.neofr.Utils
+package ru.nsu.fit.neofr.utils
 
 import org.hibernate.cfg.Configuration;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder
-import ru.nsu.fit.neofr.Model.*
+import ru.nsu.fit.neofr.entity.*
 
 
 class HibernateUtil private constructor() {
 
     companion object {
         private var sessionFactory: SessionFactory? = null
-
-//        init { sessionFactory = null}
-
-//    private fun HibernateUtil(): ??? {}
-
 
         fun getSessionFactory(): SessionFactory {
             if (sessionFactory == null) {

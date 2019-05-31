@@ -1,4 +1,4 @@
-package ru.nsu.fit.neofr.Service
+package ru.nsu.fit.neofr.service
 
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service

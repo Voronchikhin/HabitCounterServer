@@ -5,10 +5,8 @@ import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RequestParam
 import org.springframework.web.bind.annotation.RestController
-import ru.nsu.fit.neofr.ClientModel.HabitData
-import ru.nsu.fit.neofr.Service.HabitService
-import ru.nsu.fit.neofr.Model.HabitEntity
-import java.util.*
+import ru.nsu.fit.neofr.service.HabitService
+import ru.nsu.fit.neofr.entity.HabitEntity
 
 @RestController
 @RequestMapping("habits")
@@ -25,8 +23,7 @@ class HabitController {
     fun getHabits(
             @RequestParam habitId : Int
     ) : ByteArray {
-//        return HabitData(habitService.getHabitById(habitId))
-        return habitService.getHabitById(habitId).habitName!!.toByteArray()
+        return habitService.getHabitById(habitId).habitName.toByteArray()
     }
 
     @GetMapping("/lol")

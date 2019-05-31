@@ -1,4 +1,4 @@
-package ru.nsu.fit.neofr.Utils
+package ru.nsu.fit.neofr.utils
 
 import java.util.*
 
