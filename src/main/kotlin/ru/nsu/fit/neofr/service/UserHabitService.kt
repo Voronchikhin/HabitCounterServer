@@ -13,15 +13,4 @@ class UserHabitService {
 
     @Autowired
     private lateinit var habitRepository: HabitRepository
-
-
-
-
-
-
-
-//    fun getHabitByUser(userId :  Int) : List<HabitEntity> {
-//        val user = appUserRepository.findByIdOrNull(userId)
-//        return habitRepository.findAllByUser(user)
-//    }
 }

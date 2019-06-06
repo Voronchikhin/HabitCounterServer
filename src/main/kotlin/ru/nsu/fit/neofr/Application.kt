@@ -15,8 +15,6 @@ class Application : SpringBootServletInitializer()  {
     companion object {
         @JvmStatic
         fun main(args: Array<String>) {
-            println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
-//            SpringApplication.run(Application::class.java, *args)
             runApplication<Application>(*args)
         }
     }
