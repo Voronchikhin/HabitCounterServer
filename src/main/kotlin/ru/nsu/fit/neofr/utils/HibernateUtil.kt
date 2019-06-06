@@ -23,6 +23,7 @@ class HibernateUtil private constructor() {
                     configuration.addAnnotatedClass(HabitResourceEntity::class.java)
                     configuration.addAnnotatedClass(ServerLogEntity::class.java)
                     configuration.addAnnotatedClass(MonthServerLogEntity::class.java)
+
                     val builder = StandardServiceRegistryBuilder().applySettings(configuration.properties)
                     sessionFactory = configuration.buildSessionFactory(builder.build())
 
