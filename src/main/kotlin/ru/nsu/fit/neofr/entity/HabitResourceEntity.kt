@@ -6,8 +6,9 @@ import javax.persistence.*
 @Table(name = "Habit_Resource", schema = "habit", catalog = "HabitCounter")
 class HabitResourceEntity(
         @Id
+        @GeneratedValue
         @Column(name = "habit_resource_id")
-        var id : Long,
+        var id : Long = 0,
 
         @Basic
         @Column(name = "resource_per_time", nullable = false)

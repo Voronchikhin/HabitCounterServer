@@ -25,7 +25,4 @@ class HabitController {
     ) : ByteArray {
         return habitService.getHabitById(habitId).habitName.toByteArray()
     }
-
-    @GetMapping("/lol")
-    fun lol() = "lol".toByteArray()
 }

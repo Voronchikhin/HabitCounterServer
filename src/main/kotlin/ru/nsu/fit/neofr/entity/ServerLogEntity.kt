@@ -8,6 +8,7 @@ import java.sql.Date
 class ServerLogEntity (
     @Id
     @Column(name = "log_record_id")
+    @GeneratedValue
     var logRecordId: Int = 0,
 
     @Basic

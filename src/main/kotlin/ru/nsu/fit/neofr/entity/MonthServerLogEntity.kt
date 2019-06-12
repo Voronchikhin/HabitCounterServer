@@ -7,6 +7,7 @@ import java.sql.Date
 @Table(name = "MonthServerLog", schema = "habit", catalog = "HabitCounter")
 class MonthServerLogEntity(
         @Id
+        @GeneratedValue
         @Column(name = "log_record_id")
         var logRecordId: Int = 0,
         @Basic

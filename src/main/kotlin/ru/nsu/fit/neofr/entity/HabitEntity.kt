@@ -6,6 +6,7 @@ import javax.persistence.*
 @Table(name = "Habit", schema = "habit", catalog = "HabitCounter")
 class HabitEntity(
         @Id
+        @GeneratedValue
         @Column(name = "habit_id", nullable = false)
         var habitId: Int = 0,
         @Basic

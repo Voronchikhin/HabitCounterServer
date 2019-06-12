@@ -7,6 +7,7 @@ import javax.persistence.*
 class ResourceEntity(
         @Id
         @Column(name = "resource_id")
+        @GeneratedValue
         var resourceId: Int = 0,
         @Basic
         @Column(name = "resource_name")
